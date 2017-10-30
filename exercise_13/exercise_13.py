@@ -6,8 +6,7 @@ def max_in_list(list_name):
 
 
 def main():
-    amount_of_elements = int(input("Enter amount of elements in list: "))
-    numbers = list(range(amount_of_elements + 1))
+    numbers = [1, 5, 3, 10, 2, 80, 45 ,584] 
     print(max_in_list(numbers))
 
 
