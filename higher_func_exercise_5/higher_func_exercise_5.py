@@ -13,4 +13,4 @@ def translate(english_word):
 english_sentence = ["merry","christmas", "and", "happy", "new", "year"]
 
 swedish_sentence = list(map(translate, english_sentence))
-print(english_sentence,"\n", swedish_sentence)
+print(" ".join(english_sentence),"\n", " ".join(swedish_sentence), sep="")
